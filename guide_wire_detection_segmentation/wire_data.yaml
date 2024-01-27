@@ -1,0 +1,19 @@
+train: images/train
+val: images/val
+nc: 1  # number of classes
+names:
+  0: guide-wire
+
+lr0: 0.001  # initial learning rate (i.e. SGD=1E-2, Adam=1E-3)
+lrf: 0.001  # final learning rate (lr0 * lrf)
+augment: True
+hsv_h : .015
+hsv_s : .7
+hsv_v : .4
+degrees : .4
+translate : .3
+scale : .5
+shear : .01
+flipud : .3
+fliplr : .5
+mixup : .5

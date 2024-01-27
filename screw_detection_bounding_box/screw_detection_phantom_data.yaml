@@ -1,0 +1,5 @@
+train: images/train
+val: images/val
+nc: 3  # number of classes
+names: ['screw1', 'screw2', 'screw3']
+augment: False

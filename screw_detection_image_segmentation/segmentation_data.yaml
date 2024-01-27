@@ -1,0 +1,23 @@
+train: images/train
+val: images/val
+nc: 7  # number of classes
+names:
+  0: drill
+  1: screw1
+  2: screw2
+  3: screw3
+  4: screw4
+  5: t-screw
+  6: k-wire
+
+augment: True
+hsv_h : .015
+hsv_s : .7
+hsv_v : .4
+degrees : .4
+translate : .3
+scale : .5
+shear : .01
+flipud : .3
+fliplr : .5
+mixup : .5
